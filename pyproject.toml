@@ -3,5 +3,15 @@ name = "rocket-ml"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+authors = [
+    { name = "mingminyu", email = "yu_mingm623@163.com" }
+]
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+rocket-ml = "rocket_ml:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
